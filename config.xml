@@ -19,9 +19,22 @@
 # under the License.
 #
 -->
-<widget>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "org.coenraets.pageslider"
+        versionCode="10" 
+        version   = "1.0.0">
 
     <name>Page Slider</name>
+
+    <description>
+        An application demonstrating hardware accelerated page transitions. 
+    </description>
+
+    <author href="https://coenraets.org" email="ccoenraets@gmail.com">
+        Christophe Coenraets
+    </author>
+
 
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="SuppressesIncrementalRendering" value="false" />
