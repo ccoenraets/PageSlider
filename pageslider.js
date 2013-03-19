@@ -6,7 +6,7 @@
 function PageSlider(container) {
 
     var container = container,
-        currentPage;
+        currentPage,
         stateHistory = [];
 
     // Use this function if you want PageSlider to automatically determine the sliding direction based on the state history
