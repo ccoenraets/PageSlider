@@ -28,7 +28,7 @@ function PageSlider(container) {
             this.slidePageFrom(page, 'right');
         }
 
-    }
+    };
 
     // Use this function directly if you want to control the sliding direction outside PageSlider
     this.slidePageFrom = function(page, from) {
@@ -55,6 +55,6 @@ function PageSlider(container) {
         page.attr("class", "page transition center");
         currentPage.attr("class", "page transition " + (from === "left" ? "right" : "left"));
         currentPage = page;
-    }
+    };
 
 }
