@@ -11,22 +11,22 @@
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 1px);
     transform: translate3d(0, 0, 0);
 }
 
 .page.left {
-    -webkit-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 1px);
     transform: translate3d(-100%, 0, 0);
 }
 
 .page.center {
-    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 1px);
     transform: translate3d(0, 0, 0);
 }
 
 .page.right {
-    -webkit-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 1px);
     transform: translate3d(100%, 0, 0);
 }
 
